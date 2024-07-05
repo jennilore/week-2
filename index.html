@@ -4,41 +4,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our team</title>
     <style>
-       
+        .main-heading{
+            text-align: center;
+        }
+        .main-heading p{
+            color: gray; font-weight: 400 ;
+        }
+        .member-container {
+            text-align: center;
+            border: 2px solid gray;
+            border-radius: 20px;
+            margin: 5px;
+        }
+        .member-container img{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .member-container h3{
+            font-weight: 400;
+        }
+        .member-title { 
+            color: gray;
+            font-size: 14px;
+       }
+       .about-button{
+             background-color: #124488; color: white;
+       }
+       .borderless-button{
+              border: none;
+              padding: 8px 16px;
+              border-radius: 7px;
+              margin: 5px;
+       }
+       .contact-button{
+              color: gray;background-color: white;
+              border: .5px solid gray;
+       }
     </style>
 </head>
 <body>
     <section>
-        <div>
-            <h1>Meeet the team</h1>
+        <div class="main-heading">
+        <div >
+            <h1>Meet the team</h1>
             <p>Meet our team of professionals to help you</p>
         </div>
         <div>
-            <button title="go to About us" style="background-color: #124488;color: white;">About us</button>
-            <button title="contact us page" style="color: gray;background-color: white;">Contact</button>
+            <button title="go to About us" class=" borderless-button about-button">About us</button>
+            <button title="contact us page" class="borderless-button contact-button">Contact</button>
+        </div>
         </div><br><br>
+        
         <div>
-            <div>
-                <img src="C:\Users\USER\Desktop\week-2/OIP.jpeg" alt="Annette Black">
-                <p class="menber title">Dog trainer</p>
+            <div class="member-container">
+                <img src="C:\Users\USER\Desktop\week-2/OIP.jpeg" alt="Annette Black" width="200" height="200">
+                <p class="member-title">Dog trainer</p>
                 <h3>Annette Black</h3>
                 <p>&spades;</p>
             </div>
-            <div>
-                <img src="C:\Users\USER\Desktop\week-2/OIP (1).jpeg" alt="Wade warren">
-                <p class="menber title">Medical Assistent</p>
+            <div class="member-container">
+                <img src="C:\Users\USER\Desktop\week-2/OIP (1).jpeg" alt="Wade warren" width="200" height="200">
+                <p class="member-title">Medical Assistent</p>
                 <h3>Wade warren</h3>
                 <p>&clubs;</p>
             </div>
-            <div>
-                <img src="C:\Users\USER\Desktop\week-2/OIP.jpeg" alt="Savannah Nguyen">
-                <p class="menber title">President of Sales</p>
+            <div class="member-container">
+                <img src="C:\Users\USER\Desktop\week-2/OIP.jpeg" alt="Savannah Nguyen" width="200" height="200">
+                <p class="member-title">President of Sales</p>
                 <h3>Savannah Nguyen</h3>
                 <p>&hearts;</p>
             </div>
-            <div>
-                <img src="C:\Users\USER\Desktop\week-2/OIP (1).jpeg" alt="Jenny Wilson">
-                <p class="menber title">Nursing Assistent</p>
+            <div class="member-container">
+                <img src="C:\Users\USER\Desktop\week-2/OIP (1).jpeg" alt="Jenny Wilson" width="200" height="200">
+                <p class="member-title">Nursing Assistent</p>
                 <h3>Jenny Wilson</h3>
                 <p>&diamond;</p>
             </div>
